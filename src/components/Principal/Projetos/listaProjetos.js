@@ -11,7 +11,7 @@ export const listaProjetos = [
         corLinguagem: 'REACT', 
         iconeLinguagem: <FaReact style={{color: '#61DBFB'}} className={styles.iconeLinguagemProjeto}/>, 
         demo: 'https://projeto-pokedex-reactjs.vercel.app', 
-        repositorio: 'https://github.com/FelipePontin/pokedex'
+        repositorio: 'https://github.com/FelipePontin/pokedex',
     },
     {
         nome: 'SORTE NORTE', 
@@ -32,7 +32,7 @@ export const listaProjetos = [
         corLinguagem: '', 
         iconeLinguagem: <FaReact style={{color: '#61DBFB'}} className={styles.iconeLinguagemProjeto}/>, 
         demo: 'https://jogo-termo.vercel.app', 
-        repositorio: 'https://github.com/FelipePontin/termo'
+        repositorio: 'https://github.com/FelipePontin/termo',
     },
     {
         nome: 'PORTFOLIO', 
@@ -43,7 +43,7 @@ export const listaProjetos = [
         corLinguagem: '', 
         iconeLinguagem: <FaReact style={{color: '#61DBFB'}} className={styles.iconeLinguagemProjeto}/>, 
         demo: 'https://portfolio-felipepontin.vercel.app', 
-        repositorio: 'https://github.com/FelipePontin/Portfolio2.0'
+        repositorio: 'https://github.com/FelipePontin/Portfolio2.0',
     },
     {
         nome: 'IDLE GAME', 
@@ -54,7 +54,7 @@ export const listaProjetos = [
         corLinguagem: '', 
         iconeLinguagem: <FaJsSquare style={{color: '#F3E31B'}} className={styles.iconeLinguagemProjeto}/>,  
         demo: 'https://felipepontin.github.io/Idle-Game/', 
-        repositorio: 'https://github.com/FelipePontin/Idle-Game'
+        repositorio: 'https://github.com/FelipePontin/Idle-Game',
     },
     {
         nome: 'TO DO LIST', 
@@ -65,6 +65,6 @@ export const listaProjetos = [
         corLinguagem: '', 
         iconeLinguagem: <FaJsSquare style={{color: '#F3E31B'}} className={styles.iconeLinguagemProjeto}/>,  
         demo: 'https://felipepontin.github.io/To-Do-List/', 
-        repositorio: 'https://github.com/FelipePontin/To-Do-List'
+        repositorio: 'https://github.com/FelipePontin/To-Do-List',
     },
 ]

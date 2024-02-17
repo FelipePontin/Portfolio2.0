@@ -42,3 +42,42 @@
     font-size: 2rem;
     color: #2CB67D;
 }
+
+.divisaoConhecimentos {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    max-width: max-content;
+    margin: 3.5rem auto 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    opacity: .2;
+}
+
+.conhecimento {
+    background: #202020;
+    width: 8.5rem;
+    max-height: max-content;
+    margin: .5rem;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: .5rem;
+    z-index: 101;
+}
+
+.iconeConhecimento {
+    font-size: 4.75rem;
+}
+
+.nomeConhecimento {
+    font-weight: 700;
+    color: #FFFFFE;
+    margin: 1.9rem 0 .5rem 0;
+}
