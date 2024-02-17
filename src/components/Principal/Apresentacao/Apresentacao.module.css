@@ -1,0 +1,76 @@
+.Apresentacao {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-image: url('../../../images/Apresentacao.svg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-blend-mode: luminosity;
+    text-align: center;
+    padding: 9rem 0 5.45rem 0;
+    border-bottom: 1px solid #292929;
+    z-index: 2;
+    
+}
+
+.titulo {
+    color: #2CB67D;
+    font-size: .95rem;
+}
+
+.nome {
+    background: linear-gradient(-45deg,#2CB67D,#b8b8b8,#2CB67D,#b8b8b8);;
+    background-size: 400% 400%;
+    animation: gradiente 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin: .35rem 0 0 0;
+}
+
+@keyframes gradiente {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.subtitulo {
+    margin: .5rem auto 1.5rem auto;
+    width: 32.5rem;
+    font-size: .9rem;
+    color: #D9D9D9;
+}
+
+.botao {
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .85rem;
+    padding: .75rem 1.25rem;
+    color: #D9D9D9;
+    background: #2CB67D;
+    transition: 300ms cubic-bezier(.23, 1, 0.32, 1);
+    box-shadow: 12px 0 40px #2cb67d34, 12px 0 40px #2cb67d34, 0 -12px 40px #2cb67d34, 0 12px 40px #2cb67d34;
+}
+
+.botao:hover {
+    background: #249767;
+}
+
+.luz {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background: #2cb67d27;
+    filter: blur(10rem);
+    z-index: 1;
+}

@@ -1,0 +1,72 @@
+.cabecalho {
+    position: fixed;
+    width: calc(100% - 2rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    border-radius: .5rem;
+    padding: .75rem 1.25rem;
+    background: #1d1d1fb3;
+    backdrop-filter: saturate(180%) blur(20px);
+    color: #FFFFFE;
+    z-index: 999;
+}
+
+.logo {
+    width: 2.75rem;
+    cursor: pointer;
+}
+
+.navegacao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    font-size: .85rem;
+    margin: 0 .75rem;
+}
+
+.link:hover {
+    color:#2CB67D;
+}
+
+.link {
+    color: #FFFFFE;
+    transition: 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.divisoes_botoes {
+    display: flex;
+    align-items: center;
+}
+
+.divisao_botao {
+    position: relative;
+    width: 1.95rem;
+    height: 1.95rem;
+    margin: 0 .5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    background: #2cb67d50;
+    transition: 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.divisao_botao:hover {
+    background: #2cb67d69;
+}
+
+.icone_botao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    color: #2CB67D; 
+}
