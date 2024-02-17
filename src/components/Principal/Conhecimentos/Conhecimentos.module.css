@@ -31,7 +31,7 @@
     border-radius: 2rem;
     margin: 0 auto 1rem auto;
     background: #171717;
-    box-shadow: 12px 0 40px #2cb67d1e, 12px 0 40px #2cb67d1e, 0 -12px 40px #2cb67d1e, 0 12px 40px #2cb67d1e;
+    box-shadow: 0 0 40px #2cb67d1e, 12px 0 40px #2cb67d1e, 0 -12px 40px #2cb67d1e, 0 12px 40px #2cb67d1e;
 }
 
 .icone {

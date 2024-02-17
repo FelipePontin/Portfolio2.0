@@ -1,4 +1,15 @@
 .rodape {
+    position: relative;
     padding: 2rem 2rem 1.5rem 2rem;
     text-align: center;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    right: 5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #FFFFFE;
+    background: #171717;
 }

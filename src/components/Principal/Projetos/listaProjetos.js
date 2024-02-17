@@ -26,7 +26,7 @@ export const listaProjetos = [
     {
         nome: 'TERMO', 
         subtitulo: 'Descubra a palavra certa em 6 tentativas', 
-        icone: 'https://i.ibb.co/jkHSQtf/Icone-Termo-Png.png', 
+        icone: 'https://i.ibb.co/G2Sj1Gs/Icone-Termo-Png.png', 
         cor: '#6e5c6257', 
         linguagem: 'REACT', 
         corLinguagem: '', 
@@ -37,7 +37,7 @@ export const listaProjetos = [
     {
         nome: 'PORTFOLIO', 
         subtitulo: 'Portfolio criado para apresentar projetos', 
-        icone: 'https://i.ibb.co/024qFx5/Icone-Portfolio-Png.png', 
+        icone: 'https://i.ibb.co/kDQVkVG/Icone-Portfolio-Png.png', 
         cor: '#2CB67D57', 
         linguagem: 'REACT', 
         corLinguagem: '', 
@@ -59,7 +59,7 @@ export const listaProjetos = [
     {
         nome: 'TO DO LIST', 
         subtitulo: 'Gerencie as suas tarefas do dia a dia', 
-        icone: 'https://i.ibb.co/HBcYf5s/Icone-To-Do-List-Png.png', 
+        icone: 'https://i.ibb.co/5sjTt1z/Icone-To-Do-List-Png.png', 
         cor: '#53c6ea57', 
         linguagem: 'JAVASCRIPT', 
         corLinguagem: '', 

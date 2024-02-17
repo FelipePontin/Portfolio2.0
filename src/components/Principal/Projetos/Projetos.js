@@ -8,7 +8,7 @@ import { FaRocket } from "react-icons/fa";
 const Projetos = () => {
 
     return (
-        <section className={styles.Projetos}>
+        <section className={styles.Projetos} id='projetos'>
             <div className={styles.efeito}>
                 <div className={styles.divisaoIcone}>
                     <FaRocket className={styles.icone}/>

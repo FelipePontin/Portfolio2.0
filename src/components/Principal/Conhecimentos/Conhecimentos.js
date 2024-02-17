@@ -10,7 +10,7 @@ import { FaBrain } from "react-icons/fa";
 
 const Conhecimentos = () => {
     return (
-        <section className={styles.Conhecimentos}>
+        <section className={styles.Conhecimentos} id='conhecimentos'>
             <div className={styles.efeito}>
                 <div className={styles.divisaoIcone}>
                     <FaBrain className={styles.icone}/>

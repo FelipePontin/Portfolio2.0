@@ -6,7 +6,7 @@ import Cafe from '../../../images/Cafe.svg'
 
 const Ajuda = () => {
     return (
-        <section className={styles.Ajuda}>
+        <section className={styles.Ajuda} id='ajuda'>
             <h1 className={styles.titulo}>
                 Como eu posso <span className={styles.destaque}>te ajudar?</span>
             </h1>

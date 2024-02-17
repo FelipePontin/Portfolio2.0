@@ -22,7 +22,7 @@
     margin: 3rem 0 0 0;
     background: #2CB67D;
     transition: 300ms cubic-bezier(.23, 1, 0.32, 1);
-    box-shadow: 12px 0 40px #2cb67d1c, 12px 0 40px #2cb67d1c, 0 -12px 40px #2cb67d1c, 0 12px 40px #2cb67d1c;
+    box-shadow: 0 0 40px #2cb67d1c, 12px 0 40px #2cb67d1c, 0 -12px 40px #2cb67d1c, 0 12px 40px #2cb67d1c;
 }
 
 .botao:hover {

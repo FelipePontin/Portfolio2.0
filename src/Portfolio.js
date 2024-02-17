@@ -11,6 +11,8 @@ import Criar from './components/Principal/Criar/Criar';
 import Rodape from './components/Principal/Rodape/Rodape';
 import Conhecimentos from './components/Principal/Conhecimentos/Conhecimentos';
 
+import { FaSortDown } from "react-icons/fa";
+
 function Portfolio() {
   return (
     <div className="App">
@@ -25,6 +27,9 @@ function Portfolio() {
       <Ajuda/>
       <Criar/>
       <Rodape/>
+      <div className='divisao_seta_baixo' onClick={() => window.scroll(0, 0)}>
+        <FaSortDown className='seta_baixo' />
+      </div>
     </div>
   );
 }
