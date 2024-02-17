@@ -5,9 +5,11 @@ import CriandoExperiencia from './components/Principal/CriandoExperiencia/Criand
 import TragaSeuProjeto from './components/Principal/TragaSeuProjeto/TragaSeuProjeto'
 import PrototipoSite from './components/Principal/PrototipoSite/PrototipoSite';
 import Detalhe from './components/Principal/Detalhe/Detalhe';
+import Projetos from './components/Principal/Projetos/Projetos';
 import Ajuda from './components/Principal/Ajuda/Ajuda';
 import Criar from './components/Principal/Criar/Criar';
 import Rodape from './components/Principal/Rodape/Rodape';
+import Conhecimentos from './components/Principal/Conhecimentos/Conhecimentos';
 
 function Portfolio() {
   return (
@@ -18,6 +20,8 @@ function Portfolio() {
       <TragaSeuProjeto/>
       <PrototipoSite/>
       <Detalhe/>
+      <Projetos/>
+      <Conhecimentos/>
       <Ajuda/>
       <Criar/>
       <Rodape/>
