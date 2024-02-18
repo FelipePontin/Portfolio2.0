@@ -131,3 +131,15 @@
     font-weight: bold;
     color: #FFFFFE;
 }
+
+@media screen and (max-width: 1040px) {
+    .titulo, .subtitulo {
+        text-align: center;
+        width: auto;
+    }
+
+    .divisaoProjetos {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}

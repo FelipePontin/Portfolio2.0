@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 import Logo from '../../images/Logo.png'
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBars } from "react-icons/fa";
 
 const Navigation = () => {
     return (
@@ -28,11 +28,10 @@ const Navigation = () => {
                             <FaLinkedin className={styles.icone_botao} />
                         </div>
                     </a>
-                    
                 </div>
             </BrowserRouter>
+            <FaBars className={styles.barrasMenu} />
         </header>
-
     )
 }
 

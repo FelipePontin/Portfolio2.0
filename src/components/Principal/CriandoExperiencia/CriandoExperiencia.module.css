@@ -30,3 +30,19 @@
     width: 23.5rem;
     margin: 0 5rem;
 }
+
+@media screen and (max-width: 1040px) {
+    .CriandoExperiencia {
+        flex-direction: column;
+    }
+
+    .imagem {
+        margin: 2rem 0 0 0;
+        width: 20rem;
+    }
+
+    .titulo, .subtitulo {
+        text-align: center;
+        width: auto;
+    }
+}

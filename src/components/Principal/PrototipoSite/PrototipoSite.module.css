@@ -204,3 +204,40 @@
     margin: .5rem 0;
     background: #D9D9D9;
 }
+
+@media screen and (max-width: 885px) {
+    .titulo {
+        width: auto;
+    }
+
+    .cores {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .cor {
+        margin: .25rem;
+    }
+
+    .seta {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px){
+    .blocoBaixo {
+        flex-wrap: wrap;
+    }
+
+    .divisaoBlocoBaixo {
+        margin: .75rem 0;
+    }
+
+    .blocoCima {
+        display: none;
+    }
+    
+    .background {
+        padding: 2rem 0 4rem 0;
+    }
+}

@@ -42,3 +42,26 @@
 .botao:hover {
     background: #249767;
 }
+
+@media screen and (max-width: 1040px) {
+    .TragaSeuProjeto {
+        flex-direction: column-reverse;
+        padding: 3.5rem;
+    }
+
+    .titulo, .subtitulo {
+        text-align: center;
+        width: auto;
+    }
+
+    .divisao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .botao {
+        text-align: center;
+        
+    }
+}

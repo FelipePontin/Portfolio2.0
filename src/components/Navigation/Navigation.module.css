@@ -19,10 +19,6 @@
 }
 
 .navegacao {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,13 +29,13 @@
     margin: 0 .75rem;
 }
 
-.link:hover {
-    color:#2CB67D;
-}
-
 .link {
     color: #FFFFFE;
     transition: 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.link:hover {
+    color:#2CB67D;
 }
 
 .divisoes_botoes {
@@ -69,4 +65,14 @@
     transform: translate(-50%, -50%);
     font-size: 1.25rem;
     color: #2CB67D; 
+}
+
+.barrasMenu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 2.15rem;
+    font-size: 1.25rem;
+    z-index: 998;
 }

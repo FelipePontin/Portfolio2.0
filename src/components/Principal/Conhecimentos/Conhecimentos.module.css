@@ -81,3 +81,15 @@
     color: #FFFFFE;
     margin: 1.9rem 0 .5rem 0;
 }
+
+@media screen and (max-width: 1040px) {
+    .titulo, .subtitulo {
+        text-align: center;
+        width: auto;
+    }
+
+    .divisaoConhecimentos {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}

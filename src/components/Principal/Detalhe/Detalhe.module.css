@@ -35,3 +35,16 @@
     bottom: -1.85rem;
     right: 10.75rem;
 }
+
+@media screen and (max-width: 725px) {
+    .titulo, .subtitulo {
+        width: auto;
+        margin: 3.5rem 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .risco {
+        right: 3.75rem;
+    }
+}
