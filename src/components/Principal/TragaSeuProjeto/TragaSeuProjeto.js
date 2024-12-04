@@ -9,7 +9,7 @@ const TragaSeuProjeto = () => {
             <div className={styles.divisao}>
                 <h1 className={styles.titulo}>Traga o seu projeto e farei ele se <span className={styles.destaque}>tornar real</span></h1>
                 <p className={styles.subtitulo}>Você tem uma ideia incrível? Um projeto que está apenas esperando para ganhar vida? Estou aqui para ajudar a transformar suas ideias em realidade!</p>
-                <button className={styles.botao}>Contato</button>
+                <a href='https://www.linkedin.com/in/felipepanebiancopontin/' target='_blank'><button className={styles.botao}>Contato</button></a>
             </div>
         </section>
     )

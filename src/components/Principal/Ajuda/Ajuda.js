@@ -15,7 +15,7 @@ const Ajuda = () => {
                     <div className={styles.divisaoInformacao}>
                         <p className={styles.tituloAjuda}>Eu quero uma Landing Page</p>
                         <span className={styles.subtituloAjuda}>Desenvolverei uma Landing Page para o seu negócio com um design moderno e atraente para gerar engajamento.</span>
-                        <button className={styles.botaoAjuda}>Saber Mais</button>
+                        <a href='https://www.linkedin.com/in/felipepanebiancopontin/' target='_blank'><button className={styles.botaoAjuda}>Saber Mais</button></a>
                     </div>
                     <img className={`${styles.imagemAjuda} ${styles.primeiraImagemAjuda}`} src={Layout}/>
                 </div>
@@ -23,7 +23,7 @@ const Ajuda = () => {
                     <div className={styles.divisaoInformacao}>
                         <p className={styles.tituloAjuda}>Eu quero bater um papo</p>
                         <span className={styles.subtituloAjuda}>Se você tem uma ideia de projeto ou tem uma proposta de trabalho, clique no botão abaixo, será um prazer conversar com você.</span>
-                        <button className={styles.botaoAjuda}>Contato</button>
+                        <a href='https://www.linkedin.com/in/felipepanebiancopontin/' target='_blank'><button className={styles.botaoAjuda}>Contato</button></a>
                     </div>
                     <img className={`${styles.imagemAjuda} ${styles.segundaImagemAjuda}`} src={Cafe}/>
                 </div>

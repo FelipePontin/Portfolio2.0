@@ -8,7 +8,7 @@ const Apresentacao = () => {
                 <p className={styles.titulo}>DESENVOLVEDOR FRONT-END & UI/UX DESIGN</p>
                 <h1 className={styles.nome}>Felipe Panebianco Pontin</h1>
                 <p className={styles.subtitulo}>Criando websites e interfaces únicas com objetivo de melhorar a experiência do usuário.</p>
-                <button className={styles.botao}>Conhecer</button>
+                <a href='https://www.linkedin.com/in/felipepanebiancopontin/' target='_blank'><button className={styles.botao}>Conhecer</button></a>
             </section>
             <div className={styles.luz}></div>
         </>

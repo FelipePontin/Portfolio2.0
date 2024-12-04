@@ -7,7 +7,7 @@ const Criar = () => {
     return (
         <section className={styles.Criar}>
             <h1 className={styles.titulo}>Vamos criar algo excepcional juntos 🚀</h1>
-            <button className={styles.botao}>BORA!</button>
+            <a href='https://www.linkedin.com/in/felipepanebiancopontin/' target='_blank'></a><button className={styles.botao}>BORA!</button>
         </section>
     )
 }

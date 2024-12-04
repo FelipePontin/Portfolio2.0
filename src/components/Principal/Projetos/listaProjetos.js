@@ -3,6 +3,17 @@ import styles from './Projetos.module.css'
 
 export const listaProjetos = [
     {
+        nome: 'KAHU LAR PET', 
+        subtitulo: 'Landing Page para um hotel de pets', 
+        icone: 'https://kahularpet.com.br/static/media/IconeCreche.a162af9d445087e9e59622b8e1f414b4.svg', 
+        cor: '#92ac90', 
+        linguagem: 'REACT', 
+        corLinguagem: 'REACT', 
+        iconeLinguagem: <FaReact style={{color: '#61DBFB'}} className={styles.iconeLinguagemProjeto}/>, 
+        demo: 'https://kahularpet.com.br', 
+        repositorio: 'https://github.com/FelipePontin/site-kahu',
+    },
+    {
         nome: 'POKEDEX', 
         subtitulo: 'Consumindo a API do Pokemon', 
         icone: 'https://i.ibb.co/jbQdDPh/Icone-Pokedex.png', 
